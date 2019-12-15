@@ -174,7 +174,7 @@ An analogous function to dict_totals_per_gender was defined to create key-value 
 
 __Output__
 
-~[](HeroesOfPymoli/age_analysis.png)
+![](HeroesOfPymoli/age_analysis.png)
 
 ## Top Spenders
 The five top spenders were identified and their spending statistics are displayed (e.g. total spent, average spent per purchase, etc.). This was done by using dictionaries, where unique screen names were used as keys and the corresponding values were the total that individual spent. This dictionary was converted into a dataframe and was sorted. The output is showing the top five spenders using the .head(5) command. 
@@ -231,7 +231,10 @@ __Output__
 
 
 
-
+# Conclusions
+1. This game is largely played by males (~84%). It would be interesting to see if extra marketing could be made to attract more female users, however it is likely that less business marketing expenses could be used to expand the male demographic to drive sales, so it is unlikely that there will be a more balanced gender distribution for this fantasy game. However, interestingly, each female player spends an average of 40 cents more than their male players. 
+2. Most players (~63%) fall within a ten year age group (age 15-24). Within this age group, the 20-24 age bracket shows the greatest total purchases ($1114.06). These trends could be insightful for marketting the game in order to recruit and retain players. For example, it could be possible that the 20-24 age bracket currently purchasing were attracted when they were younger, and since they will be entering the workforce, have more desposable income. A pipeline can be created to recruit and retain gamers in order to protect annual in-game purchase rates high. 
+3. There is a relatively steep fall-off between popular items and non-popular items. For example, the top 5 items were purchased by ~10 people each, whereas many of the items in the set were only purcahsed once or twice. It would be interesting to dig deeper into the gameplay and discover why people were purchasing these items - perhaps they are associated with a particular Non Playable Character, provide assests in the game, etc. These trends would be interesting to pass back to the core developers for creating more content aligned to consumer interest and shoping trends. 
 
 
 
